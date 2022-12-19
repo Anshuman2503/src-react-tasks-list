@@ -13,8 +13,7 @@ To begin:
 # `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser. You can change the port if the mock server is running on 3000.
-
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
@@ -26,6 +25,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+# Steup Guide
+
 Delete all default mark up.
 
 In this project Material-UI is used.
@@ -33,14 +34,11 @@ To install run:
 <br />
 `npm install @material-ui/core`
 
-Material-UI was developed based on the Roboto font.
-The Roboto font will not be automatically loaded into Material-UI.
-*So be sure to install it.*
-
-To install run:
-<br />
-
 To use icons run:
 <br />
 `npm install @material-ui/icons`
+
+To start node server:
+<br />
+`node index.js`
 
